@@ -7,12 +7,23 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Run tsx",
+            "name": "Run Index",
             "runtimeExecutable": "tsx",
             "cwd": "${workspaceFolder}",
             "args": [
                 "--env-file=.env",
                 "index.ts"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Chat",
+            "runtimeExecutable": "tsx",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "--env-file=.env",
+                "chat.ts"
             ]
         }
     ]
