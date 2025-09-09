@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+build/
+coverage/
+*.tsbuildinfo
+*.log
+.idea/
+.vscode/
+*.local
+.env.*.local
+
+# Optional OS files
+Thumbs.db
